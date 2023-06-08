@@ -1,0 +1,54 @@
+.contrat{
+    grid-gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.contrat-form {
+    max-width: 600px;
+    margin: start;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50; /* couleur de fond */
+    color: white; /* couleur du texte */
+    padding: 12px 24px; /* taille du padding */
+    border-radius: 20px; /* arrondi des coins */
+    border: none; /* pas de bordure */
+    margin-right: 10px; /* marge entre les boutons */
+    font-size: 18px; /* taille de police */
+    cursor: pointer; /* curseur pointer au survol */
+    transition-duration: 1.0s; /* durée de l'animation */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* ombre */
+  }
+  
+  button:hover {
+    background-color: #ffcc00; /* couleur de fond au survol */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* effet d'ombre au survol */
+  }
+  
+  @media (max-width: 768px) {
+    .contrat-form {
+      max-width: 100%;
+      padding: 1rem;
+    }
+  }
+  
