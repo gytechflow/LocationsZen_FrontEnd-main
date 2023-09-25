@@ -74,15 +74,15 @@ Open `http://localhost:3000` with your browser to see the result.
 > [**“Brilliant work!”**](https://github.com/jpedroschmitz/typescript-nextjs-starter/issues/87#issuecomment-769314539)<br>
 > — Soham Dasgupta
 
-## Showcase
+## Commit message format
 
-List of websites that started off with Next.js TypeScript Starter:
+```
+type(scope?): subject
+body?
+footer?
+```
 
-- [hygraph.com](https://hygraph.com)
-- [rocketseat.com.br](https://www.rocketseat.com.br)
-- [unfork.vercel.app](https://unfork.vercel.app)
-- [cryptools.dev](https://cryptools.dev)
-- [Add yours](https://github.com/jpedroschmitz/typescript-nextjs-starter/edit/main/README.md)
+✖ type must be one of [build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test] [type-enum]
 
 ## Documentation
 
@@ -112,10 +112,10 @@ List of websites that started off with Next.js TypeScript Starter:
 TypeScript are pre-configured with custom path mappings. To import components or files, use the `@` prefix.
 
 ```tsx
-import { Button } from '@/components/Button';
+import { Button } from "@/components/Button";
 
 // To import images or other files from the public folder
-import avatar from '@/public/avatar.png';
+import avatar from "@/public/avatar.png";
 ```
 
 ### Switch to Yarn/npm

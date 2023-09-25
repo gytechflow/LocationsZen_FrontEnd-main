@@ -1,10 +1,10 @@
 {
-  "name": "typescript-nextjs-starter",
-  "description": "A TypeScript starter for Next.js that includes all you need to build amazing projects",
+  "name": "Locations_zen",
+  "description": "Web application to manage locations",
   "version": "1.0.0",
   "private": true,
-  "author": "João Pedro Schmitz <hey@joaopedro.dev> (@jpedroschmitz)",
-  "license": "MIT",
+  "author": "Paul Fernand Happy",
+  "license": "GytechFlow",
   "keywords": [
     "nextjs",
     "starter",
@@ -17,7 +17,8 @@
     "type-check": "tsc --noEmit",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "commitlint": "commitlint --edit"
   },
   "lint-staged": {
     "./src/**/*.{ts,js,jsx,tsx}": [
