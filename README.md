@@ -1,74 +1,127 @@
-# LocationsZen_FrontEnd
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/26466516/141659551-d7ba5630-7200-46fe-863b-87818dae970a.png" alt="Next.js TypeScript Starter">
+</p>
 
-Cette Application est destinée a aider à la gestion de locataire pour une cité et des différentes factures
+<br />
 
-# Getting Started with Create React App
+<div align="center"><strong>Non-opinionated TypeScript starter for Next.js</strong></div>
+<div align="center">Highly scalable foundation with the best DX. All the tools you need to build your next project.</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
 
-## Available Scripts
+<div align="center">
+  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=flat-square&color=5e17eb&labelColor=000000" alt="PRs welcome!" />
 
-In the project directory, you can run:
+  <img alt="License" src="https://img.shields.io/github/license/jpedroschmitz/typescript-nextjs-starter?style=flat-square&color=5e17eb&labelColor=000000">
 
-### `npm start`
+  <a href="https://twitter.com/intent/follow?screen_name=jpedroschmitz">
+    <img src="https://img.shields.io/twitter/follow/jpedroschmitz?style=flat-square&color=5e17eb&labelColor=000000" alt="Follow @jpedroschmitz" />
+  </a>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<div align="center">
+  <sub>Created by <a href="https://twitter.com/jpedroschmitz">João Pedro</a> with the help of many <a href="https://github.com/jpedroschmitz/typescript-nextjs-starter/graphs/contributors">wonderful contributors</a>.</sub>
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br />
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ⚡️ Next.js 13 (App Router)
+- ⚛️ React 18
+- ⛑ TypeScript
+- 📏 ESLint — To find and fix problems in your code
+- 💖 Prettier — Code Formatter for consistent style
+- 🐶 Husky — For running scripts before committing
+- 🚓 Commitlint — To make sure your commit messages follow the convention
+- 🖌 Renovate — To keep your dependencies up to date
+- 🚫 lint-staged — Run ESLint and Prettier against staged Git files
+- 👷 PR Workflow — Run Type Check & Linters on Pull Requests
+- ⚙️ EditorConfig - Consistent coding styles across editors and IDEs
+- 🗂 Path Mapping — Import components or images using the `@` prefix
 
-### `npm run build`
+## Quick Start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The best way to start with this template is using [Create Next App](https://nextjs.org/docs/api-reference/create-next-app).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+# yarn
+yarn create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+# npm
+npx create-next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+# pnpm
+pnpm create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Development
 
-### `npm run eject`
+To start the project locally, run:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+pnpm dev
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Open `http://localhost:3000` with your browser to see the result.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Testimonials
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+> [**“This starter is by far the best TypeScript starter for Next.js. Feature packed but un-opinionated at the same time!”**](https://github.com/jpedroschmitz/typescript-nextjs-starter/issues/87#issue-789642190)<br>
+> — Arafat Zahan
 
-## Learn More
+> [**“I can really recommend the Next.js Typescript Starter repo as a solid foundation for your future Next.js projects.”**](https://corfitz.medium.com/create-a-custom-create-next-project-command-2a6b35a1c8e6)<br>
+> — Corfitz
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> [**“Brilliant work!”**](https://github.com/jpedroschmitz/typescript-nextjs-starter/issues/87#issuecomment-769314539)<br>
+> — Soham Dasgupta
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Commit message format
 
-### Code Splitting
+```
+type(scope?): subject
+body?
+footer?
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+✖ type must be one of [build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test] [type-enum]
 
-### Analyzing the Bundle Size
+## Documentation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Requirements
 
-### Making a Progressive Web App
+- Node.js >= 16
+- pnpm 8
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Directory Structure
 
-### Advanced Configuration
+- [`.github`](.github) — GitHub configuration including the CI workflow.<br>
+- [`.husky`](.husky) — Husky configuration and hooks.<br>
+- [`public`](./public) — Static assets such as robots.txt, images, and favicon.<br>
+- [`src`](./src) — Application source code, including pages, components, styles.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Scripts
 
-### Deployment
+- `pnpm dev` — Starts the application in development mode at `http://localhost:3000`.
+- `pnpm build` — Creates an optimized production build of your application.
+- `pnpm start` — Starts the application in production mode.
+- `pnpm type-check` — Validate code using TypeScript compiler.
+- `pnpm lint` — Runs ESLint for all files in the `src` directory.
+- `pnpm format` — Runs Prettier for all files in the `src` directory.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Path Mapping
 
-### `npm run build` fails to minify
+TypeScript are pre-configured with custom path mappings. To import components or files, use the `@` prefix.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```tsx
+import { Button } from "@/components/Button";
+
+// To import images or other files from the public folder
+import avatar from "@/public/avatar.png";
+```
+
+### Switch to Yarn/npm
+
+This starter uses pnpm by default, but this choice is yours. If you'd like to switch to Yarn/npm, delete the `pnpm-lock.yaml` file, install the dependencies with Yarn/npm, change the CI workflow, and Husky Git hooks to use Yarn/npm commands.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more information.
